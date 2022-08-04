@@ -1,43 +1,212 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  
 }
 
 html {
-    font-size: 16px;
+  font-size: 16px;
+}
+
+main {
+    font-family: "Open Sans", sans-serif;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 -2px 10px #666;
+
 }
 
 header img {
-    width: 100px;
+  width: 150px;
 }
 
-nav ul {    
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 nav ul li a {
-    display: inline-block;
-    padding: 15px;
-    text-decoration: none;
-    color: #666;
-    font-size: 1rem;
-    font-weight: 600;
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  color: #666;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-nav ul li a:hover{
-    background-color: rgba(0, 0, 0, 0.1);
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#destaque img {
+  width: 100%;
+}
+
+#estilo h2 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  /* background-color: gray; */
+}
+
+#estilo div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+#estilo div img:nth-child(1) {
+  width: 38%;
+}
+
+#estilo div img:nth-child(2) {
+  width: 57%;
+}
+
+/* código da paula */
+
+/* footer {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-areas: "contatos categorias institucional";
+  grid-auto-rows: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #c21856;
+} */
+
+footer {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #c21856;
+  margin-top: 20px;
+}
+
+footer #Contatos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
+  align-items: flex-start;
+}
+
+footer h4 {
+    margin: 0;
+    color: #fff;
+  }
+
+main div{
+    margin-bottom: 10px;
+}
+
+
+
+#mensagem h3, #curriculo h3 {
+    margin: 0;
+  }
+
+footer #Links {
+  display: flex;
+  column-gap: 136px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul {
+  color: white;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+footer section {
+  width: 50%;
+}
+
+footer img {
+  width: 250px;
+}
+footer p {
+  color: #fff;
+}
+footer article ul li a {
+  color: #fff;
+  /* text-align: right; */
+}
+footer ul li {
+  list-style: none;
+}
+footer li a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  column-gap: 100px;
+  color: #666;
+}
+
+main section {
+  width: 50%;
+  color: #666;
+}
+
+main section form input,
+select, #mensagem{
+  width: 100%;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+form label input[type="checkbox"], input[type="radio"], input[type="file"] {
+  width: auto;
+}
+
+main form div {
+    
+}
+
+main section button {
+  width: 100%;
+  background-color: #c21856;
+  color: #fff;
+}
+
+form #curriculo input[type="file"]{
+    margin-bottom: 0;
+}
+
+main #curriculo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+
+button {
+    font-weight: bold;
+    height: 30px;
 }

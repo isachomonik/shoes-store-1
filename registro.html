@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoes</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+    </style>
+    <link rel="stylesheet" href="./public/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./public/img/logo-color.png" alt="Shoes" />
+      <nav>
+        <ul>
+          <li><a href="#">TODOS OS PRODUTOS</a></li>
+          <li><a href="#">COLEÇÕES</a></li>
+          <li><a href="#">OUTLET</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section>
+        <h2>Faça parte do nosso time</h2>
+        <form action="" method="">
+          <label for="nome">Nome</label>
+          <br />
+          <input type="text" name="nome" id="nome" />
+          <br />
+          <label for="email">Email</label>
+          <br />
+          <input type="email" name="email" id="email" />
+          <br />
+          <label for="teçefone">Telefone</label>
+          <br />
+          <input type="tel" name="telefone" id="telefone" />
+          <br />
+          <label for="departamentos">Departamentos</label>
+          <br />
+          <select name="departamento" id="departamentos">
+            <option selected disabled>Selecione um departamento</option>
+            <option value="full">Full Stack</option>
+            <option value="back">Back-End</option>
+            <option value="front">Front-End</option>
+          </select>
+
+          <div>
+            <h3>Disponibilidade</h3>
+            <label>
+              <input type="checkbox" name="disp_integral" id="" />
+              <span>Integral (8h)</span>
+            </label>
+            <label>
+              <input type="checkbox" name="disp_meio" id="" />
+              <span>Meio período (4h)</span>
+            </label>
+            <label>
+              <input type="checkbox" name="disp_freela" id="" />
+              <span>Freelancer</span>
+            </label>
+          </div>
+
+          <div>
+            <h3>Qual a melhor forma para entrarmos em contato?</h3>
+            <label>
+              <input type="radio" name="cont_email" id="" />
+              <span>Email</span>
+              <input type="radio" name="cont_tel" id="" />
+              <span>Telefone</span>
+              <input type="radio" name="cont_whatsapp" id="" />
+              <span>Whatsapp</span>
+            </label>
+          </div>
+          <div id="mensagem">
+            <h3>Mensagem</h3>
+            <label>
+              <textarea
+                name="mensagem"
+                id="mensagem"
+                cols="30"
+                rows="4"
+              ></textarea>
+            </label>
+          </div>
+
+          <div id="curriculo">
+            <h3>Currículo</h3>
+            <label for="upload_curriculo"></label>
+            <input type="file" name="upload_curriculo" id="upload_curriculo">
+          </div>
+          <button type="submit">enviar</button>
+        </form>
+      </section>
+      <section>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+          perspiciatis distinctio vitae omnis eligendi obcaecati voluptatem
+          laborum alias neque labore dolorem atque saepe dolores, sed inventore
+          maxime totam laboriosam provident!
+        </p>
+        <br />
+        <p>
+          Eum atque veniam beatae dicta maiores amet, reprehenderit nobis quam
+          ipsa, eius corrupti expedita? Perferendis minima a laborum enim, sit
+          sint iusto voluptatibus aspernatur aliquid odio eos obcaecati earum
+          ut!
+        </p>
+        <br />
+        <p>
+          Ullam a dignissimos eius, sequi eaque odio odit non explicabo
+          obcaecati, deserunt fugit ipsa. Tempora expedita, cum veritatis fuga
+          adipisci, dolorum voluptatem nostrum similique ea iusto facere, modi
+          quidem suscipit?
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <section id="Contatos">
+        <img src="./public/img/logo-white.png" alt="Shoes" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          molestiae, aspernatur porro sapiente quasi numquam distinctio libero
+          corporis
+        </p>
+      </section>
+      <section id="Links">
+        <article class="categorias">
+          <h4>categorias</h4>
+
+          <ul>
+            <li><a href="#">sandálias</a></li>
+            <li><a href="#">botas</a></li>
+            <li><a href="#">tênis</a></li>
+            <li><a href="#">oxford</a></li>
+            <li><a href="#">coturnos</a></li>
+          </ul>
+        </article>
+        <article class="institucional">
+          <h4>institucional</h4>
+          <ul>
+            <li><a href="#">sobre nós</a></li>
+            <li><a href="#">perguntas frequentes</a></li>
+            <li><a href="#">política de privacidade</a></li>
+            <li><a href="#">rastreamento de pedidos</a></li>
+            <li><a href="#">fale conosco</a></li>
+          </ul>
+        </article>
+      </section>
+    </footer>
+  </body>
+</html>
