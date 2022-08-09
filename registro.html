@@ -62,14 +62,17 @@
             </label>
           </div>
 
-          <div>
             <h3>Qual a melhor forma para entrarmos em contato?</h3>
             <label>
-              <input type="radio" name="cont_email" id="" />
+              <input type="radio" name="formaDeContato" id="" />
               <span>Email</span>
-              <input type="radio" name="cont_tel" id="" />
+            </label>
+            <label>
+              <input type="radio" name="formaDeContato" id="" />
               <span>Telefone</span>
-              <input type="radio" name="cont_whatsapp" id="" />
+            </label>
+            <label>
+              <input type="radio" name="formaDeContato" id="" />
               <span>Whatsapp</span>
             </label>
           </div>
@@ -87,8 +90,10 @@
 
           <div id="curriculo">
             <h3>Currículo</h3>
-            <label for="upload_curriculo"></label>
+            <label for="upload_curriculo">
             <input type="file" name="upload_curriculo" id="upload_curriculo">
+            <span>Arquivo PDF com seu curriculo</span>
+            </label>
           </div>
           <button type="submit">enviar</button>
         </form>

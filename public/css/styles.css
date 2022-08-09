@@ -236,7 +236,7 @@ select, #mensagem{
   margin-bottom: 10px;
 }
 
-form label input[type="checkbox"], input[type="radio"], input[type="file"] {
+form label input[type="checkbox"], input[type="radio"], input[type="file"]{
   width: auto;
 }
 
@@ -251,7 +251,26 @@ main section button {
 }
 
 form #curriculo input[type="file"]{
+    display: none;
     margin-bottom: 0;
+}
+
+form #curriculo input[type="file"]+span {
+  cursor: pointer;
+  background-color: #c21856;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+form #curriculo input[type="file"]+span:hover {
+    background-color: #fff;
+    border: 1px solid #c21856;
+    color: #c21856;
+}
+
+form #curriculo span{
+  width: 100%;
 }
 
 main #curriculo {
@@ -265,3 +284,9 @@ button {
     font-weight: bold;
     height: 30px;
 }
+
+button:hover{
+  width: 30px;
+  cursor: pointer;
+}
+
